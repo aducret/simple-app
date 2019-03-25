@@ -9,7 +9,7 @@ dependencies:
     - gem update fastlane
 
 jobs:
-  tests:
+  build:
     macos:
       xcode: "10.1.0"
 
