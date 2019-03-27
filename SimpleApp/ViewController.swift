@@ -31,5 +31,9 @@ class ViewController: UIViewController {
 
 private extension ViewController {
 
+    func setup() {
+        
+    }
+
 }
 
