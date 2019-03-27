@@ -27,3 +27,9 @@ class ViewController: UIViewController {
 
 }
 
+// MARK: - Private
+
+private extension ViewController {
+
+}
+
