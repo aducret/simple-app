@@ -25,5 +25,9 @@ class ViewController: UIViewController {
         super.viewWillDisappear(animated)
     }
 
+    deinit {
+        
+    }
+
 }
 
