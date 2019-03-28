@@ -17,3 +17,20 @@ jobs:
       - checkout
       - run: bundle install
       - run: bundle exec fastlane test
+
+  swiftlint:
+    docker:
+      - image: dantoml/swiftlint:latest
+    steps:
+      - checkout
+      - run: swiftlint --strict
+
+
+workflows:
+  version: 2
+  # BUILD WORKFLOW
+  # Every PR will execute this default workflow
+  tests:
+    jobs:
+      - swiftlint
+      - build
