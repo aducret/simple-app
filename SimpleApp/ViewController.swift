@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view, typically from a nib.
         // Testing
     }
@@ -26,8 +26,14 @@ class ViewController: UIViewController {
     }
 
     deinit {
-        
     }
 
 }
 
+// MARK: - Private
+
+private extension ViewController {
+
+    func setup() {
+    }
+}
